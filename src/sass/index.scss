@@ -1,2 +1,14 @@
-@import './common';
-@import './example';
+// @import './common';
+@import "global/reset.scss";
+@import "global/mixins.scss";
+@import "global/var.scss";
+@import "global/styles.scss";
+
+@import "partials/header.scss";
+@import "partials/first-view.scss";
+@import "partials/services.scss";
+@import "partials/skills.scss";
+@import "partials/about.scss";
+@import "partials/expiriance.scss";
+@import "partials/contacts.scss";
+@import "partials/footer.scss";
